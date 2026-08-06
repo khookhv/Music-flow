@@ -148,3 +148,32 @@ footer{
     padding: 30px;
     background: #0A0A0A;
 }
+
+
+/* animation */
+header{
+    animation-name: header;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes header {
+    0%{
+        border-bottom: solid 1px rgba(255, 255, 255, 0.564);   
+    }
+    20%{
+        border-bottom: solid 1px black; 
+    }
+    40%{
+        border-bottom: solid 1px #1db954b1;
+    }
+    60%{
+        border-bottom: solid 1px black; 
+    }
+    80%{
+        border-bottom: solid 1px rgba(255, 255, 255, 0.564);   
+    }
+    100%{
+        border-bottom: solid 1px #1db954b1;
+    }
+}
