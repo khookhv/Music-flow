@@ -136,10 +136,11 @@ a{
 
 .stats div{
     background-color: #1F1F1F;
-    width: 200px;
+    width: 250px;
     height: 100px;
     margin: 10px;
     padding: 10px;
+    padding-top: 20px;
     border-radius: 10px;
 }
 
