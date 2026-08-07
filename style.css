@@ -63,6 +63,16 @@ a{
 .hero-text p{
     margin-bottom: 25px;
     line-height: 1.6;
+    animation-name: paragraph;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes paragraph{
+    0%{color:white}
+    2%{color: #1DB954;}
+    50%{color: white;}
+    100%{color: #1DB954;}
 }
 
 
