@@ -70,7 +70,7 @@ a{
 
 @keyframes paragraph{
     0%{color:white}
-    2%{color: #1DB954;}
+    20%{color: #1DB954;}
     50%{color: white;}
     100%{color: #1DB954;}
 }
