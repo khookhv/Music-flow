@@ -127,10 +127,24 @@ a{
 /* stats section */
 
 .stats{
+    
     display: flex;
     justify-content: space-around;
     padding:80px 8%;
     text-align: center;
+}
+
+.stats div{
+    background-color: #1F1F1F;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.stats div:hover{
+    transform: scale(1.05);
 }
 
 .stats h2{
